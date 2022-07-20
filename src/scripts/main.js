@@ -39,6 +39,6 @@ console.log(potteryList)
 
 const HTMLformat = PotteryList()
 const parentHTMLElement = document.querySelector(".potteryList")
-parentHTMLElement.innerHTML = HTMLformat
+parentHTMLElement.innerHTML = HTMLformat // Could call function directly here or the variable that you saved the return result in
 
 
